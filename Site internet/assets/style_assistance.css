@@ -1,0 +1,127 @@
+.container
+{
+    min-height: 100%;
+    position: relative;
+}
+
+.titre-form
+{
+    background: linear-gradient(90deg,#0DD081, #35A4A6);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.title
+{
+    position: absolute;
+    top: 25vh;
+    left: 42vw;
+    font-size: 50px;
+    background: white;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.container .img-container
+{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.form
+{
+    height: 800px;
+    width: 800px;
+    margin-top: 100px;
+    position: relative;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.1);
+    padding-top: 1px;
+}
+
+.form h1
+{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.field
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.field .container-field
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.field p
+{
+    margin-left: 27px;   
+    font-size: 19px; 
+    font-weight: 600;
+}
+
+.field .container-field .input-field
+{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.field .container-field .input-field input
+{
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid black;
+    height: 20px;
+}
+
+.form .bouton
+{
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-left: 35%;
+    margin-right: auto;
+}
+
+
+.form .bouton input
+{
+    margin-bottom: 25px;
+    margin-right: 20px;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #0058E6;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.input-field
+{
+    display: flex;
+    flex-direction: column;
+    width: 2000px;
+}
+
+.required{
+    color: red;
+}
